@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/Techdoc.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Web Application development</header>
+      <ul>
+        <li><a class="nav-link" href="#Course_Outline">Course Outline</a></li>
+        <li><a class="nav-link" href="#History">History</a></li>
+        <li><a class="nav-link" href="#Key">Key Internet Protocols</a></li>
+        <li><a class="nav-link" href="#WebDev">Web Development</a></li>
+        <li><a class="nav-link" href="#Git">Git</a></li>
+        <li><a class="nav-link" href="#HTML">HTML</a></li>
+        <li><a class="nav-link" href="#CSS">CSS</a></li>
+        <li><a class="nav-link" href="#JavaScript">JaveScript</a></li>
+        <li><a class="nav-link" href="#Reference">Reference</a></li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Course_Outline">
+        <header>Course Outline</header>
+        <article>
+          <p>           
+          Web Application Development is about organizing content logically to teach the essential skills for creating web applications. A customizable course outline is provided, assuming a foundational knowledge of HTML, CSS, and JavaScript.
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="History">
+        <header>History</header>
+        <article>
+          <p>The Internet began with ARPANET in the late 1960s, leading to the birth of the World Wide Web in 1989 by Tim Berners-Lee. Key milestones include ARPANET's creation, the development of TCP/IP, expansion and standardization, the introduction of DNS, commercialization in the 1990s, and global expansion and popularization. The transition from static to dynamic content marked a significant shift.</p>
+        </article>
+      </section>
+      <section class="main-section" id="Key">
+        <header>Key Internet Protocols</header>
+        <article>
+          <p>
+            Key internet protocols include HTTP, HTTPS, and TCP/IP, which facilitate data communication and secure transfer. Client-server architecture involves clients making requests and servers providing responses in a stateless manner.
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="WebDev">
+        <header>Web Development</header>
+        <article>
+          Internet technologies such as HTML, CSS, and JavaScript enable web development, while responsive web design ensures adaptability across various devices. Overall, the Internet has become integral to everyday life, shaping communication, commerce, education, and entertainment.:
+        </article>
+      </section>
+      <section class="main-section" id="Git">
+        <header>Git</header>
+        <p>
+          Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+        </p>
+
+        <p>
+          Here are commands that I have used
+        </p>
+
+        <ul>
+          <li>Initialize a Repository:</li>
+          <code>git init</code>
+
+          <li>Clone a Repository:</li>
+          <code>git clone [repository_url]</code>
+
+          <li>Check Status:</li>
+          <code>git status</code>
+
+          <li>Add Changes to Staging Area:</li>
+          <code>git add [file(s)]</code>
+          <code>git add .</code>
+
+          <li>Commit Changes:</li>
+          <code>git commit -m "Commit message"</code>
+
+          <li>Push Changes to Remote Repository:</li>
+          <code>git push [remote_name] [branch_name]</code>
+
+          <li>Pull Changes to Remote Repository:</li>
+          <code>git pull [remote_name] [branch_name]</code>
+
+          <li>Create a New Branch:</li>
+          <code>git branch [branch_name]</code>
+
+          <li>View Commit History:</li>
+          <code>git log</code>
+
+        </ul>
+        
+      </section>
+      <section class="main-section" id="HTML">
+        <header>HTML</header>
+        <article>
+          HTML is the standard markup language used to create the structure and content of web pages.
+          <p>
+            <h2>HTML code:</h2> 
+              <pre><code>&lt;!DOCTYPE html&gt;
+                &lt;html&gt;
+                &lt;head&gt;
+                    &lt;title&gt;My First Web Page&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;h1&gt;Hello, World!&lt;/h1&gt;
+                    &lt;p&gt;This is a paragraph.&lt;/p&gt;
+                    &lt;a href=&quot;https://example.com&quot;&gt;Visit Example&lt;/a&gt;
+                &lt;/body&gt;
+                &lt;/html&gt;</code></pre>
+            </code> This HTML code defines a basic webpage with a heading (&lt;h1&gt;), a paragraph (&lt;p&gt;), and a hyperlink (&lt;a&gt;).
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="CSS">
+        <header>CSS</header>
+        <article>
+          <p>
+            CSS is a style sheet language used for describing the presentation of a document written in HTML.
+          </p>
+
+          <h2>CSS Sample Code</h2>
+<pre><code>body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    color: blue;
+}
+
+p {
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}</code></pre>
+<p>This CSS code sets styles for the body, headings (&lt;h1&gt;), paragraphs (&lt;p&gt;), and hyperlinks (&lt;a&gt;) in the HTML document.</p>
+        </article>
+      </section>
+      <section class="main-section" id="JavaScript">
+        <header>JavaScript</header>
+        <article>
+          <p>JavaScript is a programming language that enables dynamic behavior on web pages, such as interactivity and animations.</p>
+          <h2>JavaScript Sample Code</h2>
+<pre><code>document.addEventListener('DOMContentLoaded', function() {
+    var button = document.getElementById('myButton');
+    button.addEventListener('click', function() {
+        alert('Button clicked!');
+    });
+});</code></pre>
+<p>This JavaScript code adds an event listener to a button with the ID myButton. When the button is clicked, an alert box displaying "Button clicked!" will appear.</p>
+        </article>
+      </section>
+      <section class="main-section" id="Reference">
+        <header>Reference</header>
+        <article>
+          <ul>
+            <li>
+              All the documentation in this page is taken from
+              <a
+                href="https://primusr.notion.site/Web-Application-Development-c213cf6dbd834f6f8bcc2d02746209db"
+                target="_blank"
+                >HERE</a
+              >
+            </li>
+          </ul>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
